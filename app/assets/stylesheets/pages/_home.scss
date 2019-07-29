@@ -1,1 +1,40 @@
-// Specific CSS for your home-page
+.home-main-banner {
+  width: 100%;
+  overflow: hidden;
+
+  .rows {
+    display: flex;
+    height: 100vh;
+    margin: 0 -15%;
+    .row {
+      -webkit-transform: skew(15deg);
+              transform: skew(15deg);
+      transition: 0.3s;
+      overflow: hidden;
+    }
+
+    .row1 {
+      width: 35%;
+      background-color: #fca311;
+    }
+    .row2 {
+      width: 50%;
+      background-color: #e5e5e5;
+    }
+    .row3 {
+      width: 15%;
+      background-color: #14213d;
+    }
+  }
+
+  h1 {
+    width: 100%;
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 35%;
+    z-index:2;
+    font-size: 200px;
+    font-weight: bold;
+  }
+}
