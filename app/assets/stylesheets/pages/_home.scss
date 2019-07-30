@@ -27,14 +27,33 @@
     }
   }
 
+  .img-nathan {
+    position: absolute;
+    top: 8vh;
+    left: 170px;
+    width: 650px;
+    z-index:2;
+  }
+
+  .img-world {
+    -webkit-transform: skew(-15deg);
+              transform: skew(-15deg);
+      transition: 0.3s;
+      overflow: hidden;
+    position: absolute;
+    bottom: 13vh;
+    right: 0;
+    height: 700px;
+  }
   h1 {
     width: 100%;
     color: white;
     text-align: center;
-    position: fixed;
+    position: absolute;
     top: 35%;
-    z-index:2;
+    z-index:1;
     font-size: 200px;
     font-weight: bold;
   }
 }
+
